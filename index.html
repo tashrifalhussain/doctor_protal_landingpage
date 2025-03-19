@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Doctor's Portal</h1>
+        <p>Book your appointment with top doctors online.</p>
+        <a href="#appointment" class="cta-button">Book Now</a>
+    </header>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>General Consultation</h3>
+            <p>Get expert advice from certified doctors.</p>
+        </div>
+        <div class="service">
+            <h3>Specialist Doctors</h3>
+            <p>Consult with top specialists in various fields.</p>
+        </div>
+        <div class="service">
+            <h3>Online Prescriptions</h3>
+            <p>Receive e-prescriptions directly to your email.</p>
+        </div>
+    </section>
+    
+    <section id="appointment">
+        <h2>Book an Appointment</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <button type="submit" class="cta-button">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Doctor's Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
